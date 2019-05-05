@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "name": "Alex",
+        "image": "./images/alex_icon.png"
+    },
+    {
+        "id": 2,
+        "name": "Gloria",
+        "image": "./images/gloria_icon.png"
+    },
+    {
+        "id": 3,
+        "name": "Julien",
+        "image": "./images/julien_icon.png"
+    },
+    {
+        "id": 4,
+        "name": "Kowalski",
+        "image": "./images/kowalski_icon.png"
+    },
+    {
+        "id": 5,
+        "name": "Marty",
+        "image": "./images/marty_icon.png"
+    },
+    {
+        "id": 6,
+        "name": "Maurice",
+        "image": "./images/maurice_icon.png"
+    },
+    {
+        "id": 7,
+        "name": "Melman",
+        "image": "./images/melman_icon.png"
+    },
+    {
+        "id": 8,
+        "name": "Mort",
+        "image": "./images/mort_icon.png"
+    },
+    {
+        "id": 9,
+        "name": "Private",
+        "image": "./images/private_icon.png"
+    },
+    {
+        "id": 10,
+        "name": "Rico",
+        "image": "./images/rico_icon.png"
+    },
+    {
+        "id": 11,
+        "name": "Skipper",
+        "image": "./images/skipper_icon.png"
+    }
+   
+]
