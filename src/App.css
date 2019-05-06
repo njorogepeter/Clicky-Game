@@ -4,3 +4,11 @@
     margin-bottom: 50px;
   }
   
+  .main {
+    display: flex;
+    margin: 0px 79px;
+    padding: 0px 100px;
+  }
+  .row {
+    justify-content: center;
+  }

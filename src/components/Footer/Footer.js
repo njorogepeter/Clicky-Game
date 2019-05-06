@@ -5,9 +5,9 @@ import './style.css';
 const Footer = () => (
 
 <footer className="footer bg-info">
-    <div className="container">
-      <span className="text-dark">Clicky Game 
-      </span>
+    <div className="bottom">
+      Clicky Game 
+      <img alt="react" src="/images/footer_animation_1.png"/>
   </div>
 </footer>
 

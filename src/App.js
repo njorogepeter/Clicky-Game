@@ -1,7 +1,7 @@
 import React from 'react';
 import SingleCard from './components/SingleCard';
 import Wrapper from './components/Wrapper';
-import Navbar from './components/Navbar'
+import Navbar from './components/Navbar/Navbar';
 import Jumbotron from './components/Jumbotron/Jumbotron';
 import Footer from './components/Footer/Footer';
 import images from './images.json';
@@ -63,18 +63,21 @@ handleShuffle(id) {
             topScore = {this.state.topScore} 
             message = {this.state.message}/>
         <Jumbotron />
-        {this.state.images.map(i => (
-    
-          <SingleCard
-              id={i.id}
-              name={i.name}
-              image={i.image}
-              message={this.state.message}
-              score={this.state.score}
-              handleClick = {this.handleClick}
-            />
-          ))}
-     
+        <div className="main">
+          <div className="row">
+            {this.state.images.map(i => (
+            
+              <SingleCard
+                  id={i.id}
+                  name={i.name}
+                  image={i.image}
+                  message={this.state.message}
+                  score={this.state.score}
+                  handleClick = {this.handleClick}
+                />
+              ))}
+            </div>
+          </div>
         <Footer></Footer>
       </Wrapper>
     );

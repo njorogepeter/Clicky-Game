@@ -1,0 +1,23 @@
+.jumbotron {
+    min-height: 400px;
+    margin: 0 auto;
+    /* margin-bottom: 50px; */
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding: 180px 20px;
+    /* background-repeat: repeat; */
+     background-image: contain;
+    /* background-image: url(/images/character_landing.png); */
+    background: 
+    linear-gradient(
+      rgba(69, 190, 211, 0.45), 
+      rgba(0, 0, 0, 0.596)
+    ),
+    url(/images/character_landing.png);
+}
+
+
+.container-fluid {
+    padding: 0px;
+}

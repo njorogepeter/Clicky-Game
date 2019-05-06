@@ -1,0 +1,23 @@
+.footer {
+    background: #6956af;
+    height: 100px;
+    position: relative;
+    color: #fff;
+    overflow: auto;
+    width: 100%;
+}
+
+.footer .bottom {
+    position: absolute;
+    bottom: 0;
+    padding-left: 3%;
+
+}
+
+.footer .bottom img {
+    height: 100px;
+    /* background-size: 50%; */
+    /* position: relative; */
+    /* top: 3px; */
+    /* left: 2px; */
+}
