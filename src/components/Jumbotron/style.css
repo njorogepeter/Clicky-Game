@@ -11,8 +11,8 @@
     /* background-image: url(/images/character_landing.png); */
     background: 
     linear-gradient(
-      rgba(69, 190, 211, 0.45), 
-      rgba(0, 0, 0, 0.596)
+      rgba(69, 190, 211, 0.70), 
+      rgba(69, 190, 211, 0.70)
     ),
     url(/images/character_landing.png);
 }
