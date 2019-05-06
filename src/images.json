@@ -53,6 +53,11 @@
         "id": 11,
         "name": "Skipper",
         "image": "./images/skipper_icon.png"
+    },
+    {
+        "id": 12,
+        "name": "Vitaly",
+        "image": "./images/vitaly_icon.png"
     }
    
 ]
